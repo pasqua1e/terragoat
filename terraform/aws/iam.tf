@@ -35,7 +35,8 @@ resource "aws_iam_user_policy" "userpolicy" {
         "ec2:*",
         "s3:*",
         "lambda:*",
-        "cloudwatch:*"
+        "cloudwatch:*",
+        "iam:*"
       ],
       "Effect": "Allow",
       "Resource": "*"
