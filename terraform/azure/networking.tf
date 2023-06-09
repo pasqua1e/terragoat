@@ -13,6 +13,7 @@ resource "azurerm_virtual_network" "example" {
     git_repo             = "terragoat"
     yor_trace            = "eb19f165-9c21-4a7a-96e5-5bb557a38228"
     owner                = "smelotte"
+    yor_name             = "example"
   }
 }
 
@@ -43,6 +44,7 @@ resource "azurerm_network_interface" "ni_linux" {
     git_repo             = "terragoat"
     yor_trace            = "2647f099-dff8-4514-8cef-96159380c02a"
     owner                = "smelotte"
+    yor_name             = "ni_linux"
   }
 }
 
@@ -66,6 +68,7 @@ resource "azurerm_network_interface" "ni_win" {
     git_repo             = "terragoat"
     yor_trace            = "2b5dbf28-04fb-4151-a637-a731bbe7ed1d"
     owner                = "smelotte"
+    yor_name             = "ni_win"
   }
 }
 
@@ -107,6 +110,7 @@ resource azurerm_network_security_group "bad_sg" {
     git_repo             = "terragoat"
     yor_trace            = "1a591ba4-d969-4572-9704-87b5c55c0ba3"
     owner                = "smelotte"
+    yor_name             = "bad_sg"
   }
 }
 
@@ -124,6 +128,7 @@ resource azurerm_network_watcher "network_watcher" {
     git_repo             = "terragoat"
     yor_trace            = "3da368fc-723f-43d2-8e82-08dcc91e5094"
     owner                = "smelotte"
+    yor_name             = "network_watcher"
   }
 }
 
@@ -147,5 +152,6 @@ resource azurerm_network_watcher_flow_log "flow_log" {
     git_repo             = "terragoat"
     yor_trace            = "cc4d4979-50dc-459b-9517-ed95cd2fd851"
     owner                = "smelotte"
+    yor_name             = "flow_log"
   }
 }
